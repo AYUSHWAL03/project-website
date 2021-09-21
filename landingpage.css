@@ -1,6 +1,6 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0rem;
+	padding: 0rem;
 	box-shadow: none;
 }
 .logo{
@@ -25,8 +25,8 @@ body{
 	align-items: center;
 	justify-content: flex-start;
 	position: sticky;
-	top: 0px;
-	left: 0px;
+	top: 0rem;
+	left: 0rem;
 	border-bottom: 0.1rem solid white;
 	background-color: black;
 	z-index: 1;
@@ -44,8 +44,8 @@ body{
 }
 .oneline li{
 	display: inline-block;
-	font-size: 20px;
-	padding: 30px;
+	font-size: 2rem;
+	padding: 3rem;
 	position: relative;
 	
 }
@@ -65,7 +65,7 @@ body{
 	align-items: center;
 	justify-content: flex-end;
 	width: 100%;
-	padding-right: 30px;
+	padding-right: 3rem;
 }
 .oneline li::before{
 	background: rgba(255,255,255,0.5);
@@ -90,12 +90,12 @@ body{
 	top: 100%;
 	left: 0%;
 	z-index: 1;
-	width: 200px;
+	width: 20rem;
 	text-align: center;
 }
 .dropdown-content a{
 	color: black;
-	padding: 10px 10px;
+	padding: 1rem 1rem;
 	text-decoration: none;
 	display: block;
 }
@@ -104,15 +104,15 @@ body{
 }
 .dropdown-content a:hover{
 	color: darkgreen;
-	border: 1px solid black;
+	border: 0.1rem solid black;
 }
 
 .circle{
 	position: absolute;
 	top: 15%;
 	left: -22%;
-	width: 700px;
-	height: 700px;
+	width: 70rem;
+	height: 70rem;
 	background-color: rgba(224, 224, 224,0.3);
 	border-radius: 50%;
 	z-index: -1;
@@ -125,15 +125,15 @@ body{
 	position: absolute;
 }
 .one{
-	width: 200px;
-	height: 200px;
+	width: 20rem;
+	height: 20rem;
 	
 	top: 36%;
 	right: 9%;
 }
 .two{
-	width: 200px;
-	height: 200px;
+	width: 20rem;
+	height: 20rem;
 	top: 36%;
 	left: 9%;
 	transform: rotate(-180deg);
@@ -150,24 +150,24 @@ body{
 	}
 }
 .one p{
-	margin-left: 55px; 
-	font-size: 20px;
-	width: 140px;
+	margin-left: 5.5rem; 
+	font-size: 2rem;
+	width: 14rem;
 	color: white;
 	background-color: black;
 	border-radius: 10%;
 	font-weight: bold;
-	padding: 4px 6px;
+	padding: 0.4rem 0.6rem;
 }
 .two p{
-	margin-left: 40px; 
-	font-size: 20px;
-	width: 140px;
+	margin-left: 4rem; 
+	font-size: 2rem;
+	width: 14rem;
 	color: white;
 	background-color: black;
 	border-radius: 10%;
 	font-weight: bold;
-	padding: 4px 6px;
+	padding: 0.4rem 0.6rem;
 
 }
 .tagline{
@@ -185,15 +185,15 @@ body{
 	color: black;
 	position: absolute;
 	right: 0%;
-	padding: 10px 10px;
-	border-radius: 10px;
+	padding: 1rem 1rem;
+	border-radius: 1rem;
 	background-color: white;
-	border: 2px solid white;
+	border: 0.2rem solid white;
 	text-decoration: none;
 	font-size: 2rem;
 }
 .tagline a:hover{
-	border: 1.5px solid black;
+	border: 0.15rem solid black;
 	font-size: 2.2rem;	
 }
 @keyframes backgroundChange{
@@ -208,8 +208,8 @@ body{
 	position: absolute;
 	top: 40%;
 	right: 4%;
-	width: 300px;
-	height: 300px;
+	width: 30rem;
+	height: 30rem;
 }
 .circletwo{
 	position: absolute;
