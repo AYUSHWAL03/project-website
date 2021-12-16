@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>templates C</title>
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<script src="https://kit.fontawesome.com/9dbc7b5eaf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 class="title">
+       
+        Basic program of python for Bubble Sort 
+    </h3>
+    <div class="container">
+         <p>def bubblesort(elements):</p>
+         <p># Looping from size of array from last index[-1] to index [0]</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;for n in range(len(elements)-1, 0, -1):</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(n):</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if elements[i] > elements[i + 1]:</p>
+         <p># swapping data if the element is less than next element in the array</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elements[i], elements[i + 1] = elements[i + 1], elements[i]</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(elements)</p>
+         <p>elements = []</p>
+         <p># taking size of array from user<p>
+         <p>size = int(input("Enter How many number you want to sort:"))</p>
+         <p># taking array data from the user</p>
+         <p>for i in range(size):</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;value = int(input("Enter the element:"))</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;elements.append(value)</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;print("Array :", elements)</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;bubblesort(elements)</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;print("Sorted Array is, ")</p>
+         <p>for i in range(size):</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;print(elements[i], end =" ")</p>
+        <button id="copy_btn" onclick="myFunction()">Copy Text</button>
+    </div>
+    <img src="python1.gif">
+</body>
+</html>
