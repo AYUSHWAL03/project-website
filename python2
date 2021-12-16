@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>templates C</title>
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<script src="https://kit.fontawesome.com/9dbc7b5eaf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 class="title">
+       
+        Basic program of python for Insertion Sort 
+    </h3>
+    <div class="container">
+         <p>def insertionSort(elements):<br>
+            # Traverse through 1 to len(arr)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;for i in range(1, len(elements)):<br>
+              
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;key = elements[i]<br>
+              
+                    # Move elements of arr[0..i-1], that are<br>
+                    # greater than key, to one position ahead<br>
+                    # of their current position<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j = i-1<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while j >=0 and key < elements[j] :<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elements[j+1] = elements[j]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j -= 1<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elements[j+1] = key<br>
+            elements = []<br>
+            # taking size of array from user<br>
+            size = int(input("Enter How many number you want to sort:"))<br>
+            # taking array data from the user<br>
+            for i in range(size):<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;value = int(input("Enter the element:"))<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;elements.append(value)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print("Array :", elements)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;insertionSort(elements)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print("Sorted Array is, ")<br>
+            for i in range(size):<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print(elements[i], end =" ")</p>
+        <button id="copy_btn" onclick="myFunction()">Copy Text</button>
+    </div>
+    <img src="python2.gif">
+</body>
+</html>
